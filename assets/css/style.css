@@ -1,5 +1,5 @@
 body {
-    width: 100% ;
+    max-width: 1200rem ;
     height: 1500px;
     margin: 0;
     padding: 0; 
@@ -24,7 +24,7 @@ body {
     color: 	#E06C75
 }
 
-.bloque_1{
+.sobre_mi{
     margin-top: 100px;
     border: solid purple 2px;
     text-align: center;
@@ -47,3 +47,44 @@ body {
     color: #61AFEF;
 }
 
+.bloque_de_experiencia {
+    display: flex;
+    flex-direction: row;
+    margin-top:100px;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 50px;
+
+}
+
+
+h2 {
+    font-size: 40px !important;
+}
+.educacion {
+    border: solid orange 2px;
+    color:  #E5C07B;
+    text-align: center;
+    font-size: 20px;
+  
+}
+
+h3 {
+    font-size: 40px!important;
+}
+.experiencia_laboral {
+    border: solid brown 2px;
+    color: #C678DD;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.bloque_proyectos {
+    border: solid white 2px;
+}
+.portafolio {
+    border:  solid pink 2px;
+    color: aqua;
+    text-align: center;
+}
