@@ -1,8 +1,8 @@
 body {
     max-width: 100%;
-    height: 500px;
+    height: 100px;
     margin: 0;
-    padding: 0; 
+    padding: 0 ; 
     background-image: url("../img/fondo_principal.png");
     background-position: center;
     background-size:cover;
@@ -11,35 +11,50 @@ body {
 
 
 .img {
-    border: solid rgb(255, 0, 8) 2px;
+    margin-top: 50px;
     height: 400px;
 }
 
 .encabezado {
 
     text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 100px;
+    margin-right: 200px;
+    
+   
 }
 
-#titulo {
-    color: 	#E06C75
-}
-
-.sobre_mi{
-    margin-top: 100px;
-    border: solid purple 2px;
+.titulo {
+    color: 	#E06C75;
+    font-family: Consolas, 'Courier New', monospace;
     text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    
+}
+
+
+.sobre_mi {
+    margin-top: 100px;
+    text-align: lef;
+   
+   padding:20px;
 }
 
 #seccion_2 {
     color: 	#98C379;
+    font-family: Consolas, 'Courier New', monospace
 }
 
 
 .parrafo_1 {
-    border: solid red 2px;
-    text-align: center;
+ text-align: left;
  width: 80%;
  margin: 0 auto;
+margin-top: 29px;
+font-family: Consolas, 'Courier New', monospace
 
 }
 
@@ -53,8 +68,9 @@ body {
     margin-top:100px;
     justify-content: center;
     gap: 80px;
-    margin-bottom: 50px;   
-flex-wrap: wrap;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    font-family: Consolas, 'Courier New', monospace
 }
 
 
@@ -62,31 +78,31 @@ h2 {
     font-size: 40px !important;
 }
 .educacion {
-    border: solid orange 2px;
     color:  #E5C07B;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
   
 }
 
 h3 {
     font-size: 40px!important;
+    color: #C678DD;
 }
 .experiencia_laboral {
-    border: solid brown 2px;
     color: #C678DD;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
 
 }
 
 .bloque_proyectos {
-    height: 200px;
-    border: solid white 2px;
+    height: 500px;
     color: aquamarine;
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 100px;
+    font-family: Consolas, 'Courier New', monospace
 }
 
 h4 {
@@ -94,9 +110,36 @@ h4 {
 }
 .portafolio {
     margin-top: 20px;
-    height:10px;
-    border:  solid blue;
+    height:500px;
 justify-content: center;
     display: flex;
     gap: 10px;
 }
+
+
+
+.footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    font-family: Consolas, 'Courier New', monospace
+  }
+  
+  
+  .social-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+ 
+  .social-icons i {
+    font-size: 30px; 
+    color: #98C379;
+  }
+  .firma {
+    color: #E5C07B;
+    text-align: center;
+  }

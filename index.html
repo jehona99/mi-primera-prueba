@@ -12,6 +12,10 @@
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body class="body">
     <header>
@@ -31,96 +35,113 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">inicio</a>
-              <a class="nav-link" href="#">Sobre mi </a>
-              <a class="nav-link" href="#">Proyectos</a>
-              <a class="nav-link" href="#">contacto</a>
-              <a class="nav-link" href="#">portafolio</a>
+              <a class="nav-link active" aria-current="page" href="#inicio">inicio</a>
+              <a class="nav-link" href="#sobre_mi">Sobre mi </a>
+              <a class="nav-link" href="#portafolio">portafolio</a>
+              <a class="nav-link" href="#contacto">contacto</a>
             </div>
           </div>
         </div>
       </nav>
-    </header>
-    <main>
+    </header> 
+    <!-- hasta aca el encabezado -->
+      <!-- ---------------------------------------------------- -->
+    <main class="margen_cuerpo">
       <div>
+        <h1 class="titulo">JEHONADAB VERGARA</h1></title>
         <section class="encabezado">
-          <h1 id="titulo">JEHONADAB VERGARA</h1>
+          <div>
           <img
             class="img"
             src="assets/img/IMG_4086.jpg"
             alt="un joven con traje apoyado en un pilar qu parece un libro gigante"
           />
+        </div>
+        <div>
+          <section class="sobre_mi" id="sobre_mi">
+            <h2 id="seccion_2">SOBRE MI</h2>
+            <div class="parrafo_1">
+              <p id="parrafo">
+                Soy Jehonadab aunque muchos me dicen Jehona vivo en Arica Chile.
+                soy un novato en la programacion y aun no se mucho de esta, pero
+                me gustaria poder vivir de esto con el tiempo, soy una persona con
+                muchas ideas que me gusta aportar y me gusta conocer cada proceso
+                de como funciona cada cosa, soy responsable y proactivo quiero
+                sacar el maximo de provecho a etse curso y convertime en un
+                programador profesional
+              </p>
+            </div>
+          </section>
+        </div>
+        
         </section>
       </div>
-      <!-- hasta aca el encabezado -->
-      <!-- ---------------------------------------------------- -->
+     
       <div>
-        <section class="sobre_mi">
-          <h2 id="seccion_2">SOBRE MI</h2>
-          <div class="parrafo_1">
-            <p id="parrafo">
-              Soy Jehonadab aunque muchos me dicen Jehona vivo en Arica Chile.
-              soy un novato en la programacion y aun no se mucho de esta, pero
-              me gustaria poder vivir de esto con el tiempo, soy una persona con
-              muchas ideas que me gusta aportar y me gusta conocer cada proceso
-              de como funciona cada cosa, soy responsable y proactivo quiero
-              sacar el maximo de provecho a etse curso y convertime en un
-              programador profesional
-            </p>
-          </div>
-        </section>
+    
         <div class="bloque_de_experiencia">
           <section class="educacion">
             <h2>EDUCACION</h2>
             <ul>
-              <li>eduacion basica</li>
-              <li>educacion</li>
-              <li>tecnico</li>
-              <li>instituto</li>
+              <li>2006-2013(educacion basica colegio miramar)</li>
+              <li>2014-2015(educacion media colegio miramar)</li>
+              <li>2015-2016(tecnico nivel medio Adm.empresas) </li>
             </ul>
           </section>
           <section class="experiencia_laboral">
             <h3>EXPERIENCIA LABORAL</h3>
 
             <ul>
-              <li>juan maestro</li>
-              <li>panaderia</li>
-              <li>servicio agricola ganader</li>
-              <li>benexia</li>
+              <li>2017 Practica laboral en SAG</li>
+              <li>2018-2020 Maestro de cocina en "Juan Maestro"</li>
+              <li>2020-2022 Encargado de bodega en "Salon de Te 890"</li>
+              <li>2022-Actualidad Cargador-Ayudante de linea en "Benexia"</li>
             </ul>
           </section>
         </div>
       </div>
       <!-- hasta aca llega la seccion sobre mi incluye quien soy y mis experiencias laborales y de educacion -->
       <!-- ---------------------------------------------------------------------------------- -->
-      <div class="bloque_proyectos">
-          <h4>MIS Proyectos</h4>
-          <section class="portafolio">
-            <div>
-              <img src="assets/img/tarea.1.jpeg" class="img-fluid" alt="...">
-              <p>Proyecto CV</p>
-            </div>
-            <div>
-              <img src="assets/img/tarea.2.jpeg" class="img-fluid" alt="...">
-              <p>Proyecto skin care</p>
-            </div>
-            <div>
-              <img src="assets/img/tarea.3.jpeg" class="img-fluid" alt="...">
-              <p>Pagina Iguanas</p>
-            </div>
-            <div>
-              <img src="assets/img/tarea.4.jpeg" class="img-fluid" alt="...">
-              <P>Proyecto cuppon</P>
-            </div>
-            <div>
-              <img src="assets/img/tarea.5.jpeg" class="img-fluid" alt="...">
-              <p>Proyecto git y github</p>
-            </div>
-          </section>  
-        </div>
+      <div class="bloque_proyectos" id="portafolio">
+        <h4>MIS Proyectos</h4>
+        <section class="portafolio"">
+          <div>
+            <img src="assets/img/tarea.1.jpeg" class="img-fluid" alt="un curriculum vitae hecho con html">
+            <p style="color: antiquewhite;">Introducion a HTML</p>
+          </div>
+          <div>
+            <img src="assets/img/tarea.2.jpeg" class="img-fluid" alt="...">
+            <p style="color:	#98C379;">introduccion a CSS</p>
+          </div>
+          <div>
+            <img src="assets/img/tarea.3.jpeg" class="img-fluid" alt="...">
+            <p style="color:	#E06C75 ;">Uso de Flexbox</p>
+          </div>
+          <div>
+            <img src="assets/img/tarea.4.jpeg" class="img-fluid" alt="...">
+            <P style="color: 	#E5C07B;">Uso de Bootstrap</P>
+          </div>
+          <div>
+            <img src="assets/img/tarea.5.jpeg" class="img-fluid" alt="...">
+            <p style="color: #56B6C2">manejo de git y github</p>
+          </div>
+        </section>  
+      </div>
+    
+        <!-- hasta aca la seccion proyectos -->
+         <!-- ------------------------------------------------------------ -->
       </div>
     </main>
-    <footer></footer>
+    <footer class="footer" id="contacto">
+      <div class="social-icons">
+       <a href="https://github.com/jehona99 " target="_blank"> <i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/antonio-jehonadab-miranda-vergara-b57a1b350/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/jehonadab_v/" target="_blank"><i class="bi bi-instagram"></i></a>
+      </div>
+      <div class="firma">
+        <p>Jehonadab Vergara 2025®.</p>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
